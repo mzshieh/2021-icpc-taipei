@@ -6,5 +6,6 @@ do
 	git add .
 	git commit -m "%(%F_%H%M%S)T"
 	git push
+	sleep 30
 	counter=$(( $counter - 1 ))
 done
